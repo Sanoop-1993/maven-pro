@@ -19,7 +19,7 @@ node {
                -Dsonar.projectKey=maven-pro-sanoop \
                -Dsonar.organization=sanoop \
                -Dsonar.host.url=https://sonarcloud.io \
-               -Dsonar.login=b2560983aea64fe53b1be6d437435bc7b05a0f15
+               -Dsonar.login=b2560983aea64fe53b1be6d437435bc7b05a0f15'
        }
    } 
    stage('Archive to Jfrog') {
